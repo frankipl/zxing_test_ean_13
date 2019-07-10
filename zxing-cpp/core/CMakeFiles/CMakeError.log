@@ -1,0 +1,16 @@
+Performing C++ SOURCE FILE Test COMPILER_NEEDS_FLOAT_STORE failed with the following output:
+Change Dir: /home/franki/apps/qt/october/ocatcher-dev/catcherdev/zxing-cpp/core/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4fcc4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4fcc4.dir/build.make CMakeFiles/cmTC_4fcc4.dir/build
+make[1]: Entering directory '/home/franki/apps/qt/october/ocatcher-dev/catcherdev/zxing-cpp/core/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4fcc4.dir/src.cxx.o
+/opt/Android/Ndk/android-ndk-r19c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/opt/Android/Ndk/android-ndk-r19c/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/Android/Ndk/android-ndk-r19c/toolchains/llvm/prebuilt/linux-x86_64/sysroot    -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -DCOMPILER_NEEDS_FLOAT_STORE -fPIE   -ffloat-store -o CMakeFiles/cmTC_4fcc4.dir/src.cxx.o -c /home/franki/apps/qt/october/ocatcher-dev/catcherdev/zxing-cpp/core/CMakeFiles/CMakeTmp/src.cxx
+clang++: warning: optimization flag '-ffloat-store' is not supported [-Wignored-optimization-argument]
+Linking CXX executable cmTC_4fcc4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fcc4.dir/link.txt --verbose=1
+/opt/Android/Ndk/android-ndk-r19c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++  --target=armv7-none-linux-androideabi16 --gcc-toolchain=/opt/Android/Ndk/android-ndk-r19c/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/opt/Android/Ndk/android-ndk-r19c/toolchains/llvm/prebuilt/linux-x86_64/sysroot  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -DCOMPILER_NEEDS_FLOAT_STORE  -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--warn-shared-textrel -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments -Wl,-z,noexecstack -Wl,-z,relro -Wl,-z,now -Wl,--gc-sections   CMakeFiles/cmTC_4fcc4.dir/src.cxx.o  -o cmTC_4fcc4  -latomic -lm 
+make[1]: Leaving directory '/home/franki/apps/qt/october/ocatcher-dev/catcherdev/zxing-cpp/core/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }

@@ -1,0 +1,7 @@
+/home/franki/apps/qt/october/ocatcher-dev/catcherdev/zxing-cpp/core/CMakeFiles/install/strip.dir
+/home/franki/apps/qt/october/ocatcher-dev/catcherdev/zxing-cpp/core/CMakeFiles/install/local.dir
+/home/franki/apps/qt/october/ocatcher-dev/catcherdev/zxing-cpp/core/CMakeFiles/ZXingCore.dir
+/home/franki/apps/qt/october/ocatcher-dev/catcherdev/zxing-cpp/core/CMakeFiles/install.dir
+/home/franki/apps/qt/october/ocatcher-dev/catcherdev/zxing-cpp/core/CMakeFiles/list_install_components.dir
+/home/franki/apps/qt/october/ocatcher-dev/catcherdev/zxing-cpp/core/CMakeFiles/edit_cache.dir
+/home/franki/apps/qt/october/ocatcher-dev/catcherdev/zxing-cpp/core/CMakeFiles/rebuild_cache.dir
