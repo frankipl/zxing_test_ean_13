@@ -9,6 +9,7 @@ linux {
     LIBS+= -L"zxing-linux" -lZXingCore
 }
 android {
+    QMAKE_LFLAGS += -nostdlib++
     LIBS+= -L"zxing-android" -lZXingCore
 }
 
